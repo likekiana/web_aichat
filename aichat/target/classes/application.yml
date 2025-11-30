@@ -1,0 +1,31 @@
+server:
+  port: 8080
+
+# 火山引擎配置
+ai:
+  apiKey: "1d5a70d6-94d5-4e41-8c8a-8d87a3f3aeb3"
+
+# Knife4j 配置
+knife4j:
+  enable: true
+  openapi:
+    title: 脑筋急转弯API文档
+    description: AI脑筋急转弯接口文档
+    version: 1.0.0
+    contact:
+      name: zzh
+  setting:
+    language: zh-CN
+    enable-swagger-models: true
+    enable-document-manage: true
+    enable-refresh: true
+  group:
+    default:
+      group-name: ai脑筋急转弯
+      api-rule: package
+      api-rule-resources:
+        - com.zzh.aichat.controller
+
+logging:
+  level:
+    com.zzh.aichat: DEBUG

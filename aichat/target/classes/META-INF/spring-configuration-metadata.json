@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "name": "ai",
+      "type": "com.zzh.aichat.config.AiProperties",
+      "sourceType": "com.zzh.aichat.config.AiProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "ai.api-key",
+      "type": "java.lang.String",
+      "sourceType": "com.zzh.aichat.config.AiProperties"
+    },
+    {
+      "name": "ai.bot-id",
+      "type": "java.lang.String",
+      "sourceType": "com.zzh.aichat.config.AiProperties"
+    }
+  ],
+  "hints": []
+}
